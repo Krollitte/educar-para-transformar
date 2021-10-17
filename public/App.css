@@ -1,0 +1,493 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.right-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pink-square {
+  background-color: #ffc5cd;
+  transform: rotate(8deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 15%;
+}
+
+.green-square {
+  width: 150px;
+  height: 15%;
+  background-color: #97edaa;
+  transform: rotate(-8deg);
+  margin-right: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow-square {
+  width: 150px;
+  height: 15%;
+  background-color: #ffdc5d;
+  transform: rotate(-8deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pink-square-right {
+  background-color: #ffc5cd;
+  transform: rotate(-8deg);
+  display: flex;
+  margin-left: 160px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 15%;
+}
+
+.green-square-right {
+  width: 150px;
+  height: 15%;
+  background-color: #97edaa;
+  transform: rotate(8deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow-square-right {
+  width: 150px;
+  height: 15%;
+  background-color: #ffdc5d;
+  transform: rotate(8deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  width: 70%;
+}
+
+.blue-sticker {
+  width: 50px;
+  background-color: #001c84;
+  margin-left: 15px;
+  position: absolute;
+  top: -10px;
+}
+.center-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center-box {
+  background-color: #001c84;
+  width: 500px;
+}
+
+.right-container {
+}
+
+.second-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #001c84;
+  height: 8vh;
+  width: 100%;
+  padding-left: 250px;
+}
+
+.white-box {
+  background-color: #ffffff;
+  width: 50%;
+  border: 1px solid black;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.buttons-area {
+  height: 100%;
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.button {
+  height: 100%;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+}
+
+.button:hover {
+  opacity: 0.3;
+}
+
+.content-container {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+}
+
+.right-content-container {
+  background-color: #ffc5cd;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left-content-container {
+  background-color: #ffdc5d;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.plans-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 60vh;
+  width: 100%;
+}
+
+.plans {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 50px;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+.plan {
+  width: 210px;
+  height: 100%;
+  padding-top: 20px;
+  margin-right: 50px;
+  background-color: #ffffff;
+}
+
+.name-plan {
+  width: 100%;
+  height: 20%;
+  border-bottom: 1px dashed #f2f2f2;
+}
+
+.price-plan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 33%;
+  border-bottom: 1px dashed #f2f2f2;
+}
+
+.more-info-plan {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  width: 100%;
+  height: 33%;
+}
+
+.intern-container {
+  width: 100%;
+}
+
+.courses-page {
+  height: 100vh;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.header-courses {
+  height: 100px;
+  display: flex;
+}
+
+.title-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.title-container-plans {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.searchbar-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.searchbar {
+  width: 50%;
+  height: 35px;
+  display: flex;
+  border-radius: 8px;
+  border-top-width: 1px;
+  border-top-color: #000;
+  border-bottom-width: 1px;
+  border-bottom-color: #000;
+  border-left-width: 1px;
+  border-left-color: #000;
+  border-right-width: 0px;
+  border-right-color: transparent;
+}
+
+.button-search {
+  width: 12%;
+  display: flex;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.courses-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.course {
+  height: 70%;
+  width: 250px;
+  margin-right: 40px;
+}
+
+.course-header {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+}
+
+.course-middle {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.course-bottom {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+}
+
+.final-page {
+  height: 100vh;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.blue-box {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  margin-top: 150px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #001c84;
+}
+
+.blue-box-text-title {
+  color: #fff;
+  font-size: 30px;
+}
+
+.blue-box-text-subtitle {
+  color: #fff;
+  font-size: 20px;
+}
+
+.blue-box-input-box {
+  width: 45%;
+  height: 40px;
+  display: flex;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.input-blue-box {
+  width: 75%;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.button-submit {
+  width: 25%;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: #ffdc5d;
+}
+
+.button-text {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0;
+}
+
+.contact-box {
+  height: 50%;
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #f2f2f2;
+  margin-left: 100px;
+}
+
+.contacts {
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0;
+  color: #696969;
+  text-align: start;
+  font-size: 20px;
+}
+
+.schedule {
+  margin: 0;
+  font-size: 10px;
+  color: #696969;
+  margin-left: 20px;
+}
+
+.contact-item-text {
+  margin: 0;
+  color: #696969;
+}
+.contact-item {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.social-media {
+  height: 70%;
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
