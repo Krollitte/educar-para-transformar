@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;700&display=swap");
+
 .App {
   text-align: center;
   display: flex;
@@ -30,22 +32,14 @@
 .home {
   height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .left-container {
-  height: 100vh;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.right-container {
   height: 100vh;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -53,20 +47,20 @@
 
 .pink-square {
   background-color: #ffc5cd;
-  transform: rotate(8deg);
+  transform: rotate(-20deg);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 150px;
-  height: 15%;
+  width: 250px;
+  height: 25%;
 }
 
 .green-square {
-  width: 150px;
-  height: 15%;
+  width: 250px;
+  height: 25%;
   background-color: #97edaa;
-  transform: rotate(-8deg);
+  transform: rotate(20deg);
   margin-right: 160px;
   display: flex;
   flex-direction: column;
@@ -75,33 +69,34 @@
 }
 
 .yellow-square {
-  width: 150px;
-  height: 15%;
-  background-color: #ffdc5d;
-  transform: rotate(-8deg);
+  height: 25%;
+  z-index: -1;
+  width: 250px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
+  transform: rotate(-20deg);
+  background-color: #ffdc5d;
 }
 
 .pink-square-right {
   background-color: #ffc5cd;
-  transform: rotate(-8deg);
+  transform: rotate(-20deg);
   display: flex;
   margin-left: 160px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 150px;
-  height: 15%;
+  width: 250px;
+  height: 25%;
 }
 
 .green-square-right {
-  width: 150px;
-  height: 15%;
+  width: 250px;
+  height: 25%;
   background-color: #97edaa;
-  transform: rotate(8deg);
+  transform: rotate(20deg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,10 +104,10 @@
 }
 
 .yellow-square-right {
-  width: 150px;
-  height: 15%;
+  width: 250px;
+  height: 25%;
   background-color: #ffdc5d;
-  transform: rotate(8deg);
+  transform: rotate(20deg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,19 +124,33 @@
   margin-left: 15px;
   position: absolute;
   top: -10px;
+  transform: rotate(10deg);
 }
 .center-container {
   height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .center-box {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   background-color: #001c84;
-  width: 500px;
 }
 
 .right-container {
+  height: 95%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .second-page {
@@ -200,7 +209,7 @@
 
 .content-container {
   width: 100%;
-  height: 30vh;
+  height: 40vh;
   display: flex;
 }
 
@@ -330,10 +339,11 @@
 .button-search {
   width: 12%;
   display: flex;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
   align-items: center;
   justify-content: center;
+  background-color: #800080;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .input {
